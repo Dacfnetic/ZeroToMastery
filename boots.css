@@ -7,12 +7,12 @@ html, body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+	/*
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 h1{
 	font-size: 3em;
@@ -23,29 +23,24 @@ hr {
     color: #9F4D78;
     border: 3px solid #9F4D78;
     width: 50%;
+    text-align: center;
   
 }
-.btn-primary:hover{
-	border: 2px solid black;
-	background-color: #9F4D78;
-}
-.btn {
-	font-weight: 700;
-	border-radius: 300px;
-	text-transform: uppercase;
-}
-
 .btn-primary{
 	border: 2px solid black;
 	background-color: pink;
 }
-.btn-primary:press{
+.btn-primary:hover {
 	border: 2px solid black;
-	background-color: pink;
+	background-color: #9F4D78;
 }
-
-
-.bt-bk {
+.btn-primary:active, .btn-primary:focus{
+	border: 2px solid black;
+	background-color: white;
+}
+.btn {
 	padding: 1rem 2rem;
-
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
 }
