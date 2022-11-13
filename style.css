@@ -1,15 +1,19 @@
-html{
-	min-height: 100%;
-}
-body{
-	margin: 0;
-	height: 200px;
-}
-div {
+html, body{
+	height: 100%;
+	width: 100%;
 	display: flex; 
 	flex-flow: wrap column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+}
+div {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}
+
+h1, a {
+	text-align: center;
 }
 
