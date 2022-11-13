@@ -9,7 +9,7 @@ html, body {
 	background-size: cover;
 	
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column nowrap;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
