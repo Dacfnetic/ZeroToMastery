@@ -17,6 +17,7 @@ html, body {
 h1{
 	font-size: 3em;
 	color: #9F4D78;
+	text-align: center;
 }
 hr {
     margin: 20px auto;
