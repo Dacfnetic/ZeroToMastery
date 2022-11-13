@@ -1,11 +1,15 @@
-html, body {
+html{
 	min-height: 100%;
 }
+body{
+	margin: 0;
+	height: 200px;
+}
 div {
-	display: grid; 
-	grid-template-columns: 1fr;
+	display: flex; 
+	flex-flow: wrap column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
-a, h2 {
-	text-align: center;
-}
