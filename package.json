@@ -1,0 +1,23 @@
+{
+  "name": "zerotomastery",
+  "description": "**A**",
+  "version": "1.0.0",
+  "main": "advanJs.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dacfnetic/ZeroToMastery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dacfnetic/ZeroToMastery/issues"
+  },
+  "homepage": "https://github.com/Dacfnetic/ZeroToMastery#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
