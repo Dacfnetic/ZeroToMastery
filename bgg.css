@@ -1,7 +1,7 @@
 html, body {
-	min-height: 100%;
-}
-body {
+	height: 100%;
+	margin: 0px;
+	width: 100%;
 	font: 'Raleway', sans-serif;
 	color: rgba(0,0,0,0.5);
 	text-align: center;
@@ -9,6 +9,7 @@ body {
 	letter-spacing: 0.5em;
 	top: 15%;
 	background: linear-gradient(to right, red, yellow);
+
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.5em;
 	width: 100%;
+	margin: 0px;
 }
 
 h3 {
